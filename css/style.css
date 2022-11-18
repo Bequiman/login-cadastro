@@ -1,0 +1,19 @@
+
+.login input[type="password"] {  
+   margin-top: 10px;    
+   display: block;
+}
+
+
+.login input[type="button"] {
+   margin-top: 10px;
+}
+
+.cadastro input[type="password"] {  
+   margin-top: 10px;    
+   display: block;
+}
+
+.cadastro input[type="button"] {
+   margin-top: 10px;
+}

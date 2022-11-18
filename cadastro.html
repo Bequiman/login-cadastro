@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript/cadastro.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <main>
+        <section class="cadastro">
+            <div>                
+                <h1>Cadastro</h1>
+                <form method="post"  action="php/file.php" >                   
+                    <input type="text" name="usuario" id="usuario" value="" placeholder="Usuário">                    
+                    <input type="password" name="senha"  id="senha" value="" placeholder="Senha" onfocus="this.value=''">
+                    <input type="password" id="confirmarSenha" value="" placeholder="Confirmar Senha" onfocus="this.value=''">
+                    <input type="button" id="btnLogin" value="Cadastrar" onclick="validarCadastro()">                    
+                </form>
+                <p>Já é cadastrado? <a href="login.html">Clique aqui</a></p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
